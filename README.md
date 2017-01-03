@@ -17,11 +17,11 @@ Dependencies
 Example Playbook
 ----------------
 
-   ---
-   - hosts: gitolite
-     sudo: yes
-       roles:
-       - nestihacky.gitolite
+    ---
+    - hosts: gitolite
+      sudo: yes
+        roles:
+        - nestihacky.gitolite
 
 License
 -------
