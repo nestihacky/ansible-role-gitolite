@@ -11,12 +11,17 @@ See also `defaults/main.yml`.
 Dependencies
 ------------
 
-None so far.
+* nestihacky.git_core https://github.com/nestihacky/ansible-role-git-core
+* nestihacky.git_daemon https://github.com/nestihacky/ansible-role-git-daemon
 
 Example Playbook
 ----------------
 
-TODO
+   ---
+   - hosts: gitolite
+     sudo: yes
+       roles:
+       - nestihacky.gitolite
 
 License
 -------
